@@ -75,7 +75,7 @@
     --color: var(--color-wrong);
   }
   
-  .start-btn, .next-btn {
+  .start-btn, .next-btn, .rtn-btn {
     font-size: 5 rem;
     font-weight: bold;
     padding: 10px 20px;

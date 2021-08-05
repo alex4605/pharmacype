@@ -68,7 +68,9 @@ function selectAnswer(e) {
     nextButton.classList.remove('hide')
   } else {
     startButton.innerText = '重新再來一次'
+    returnButton.innerText = '關閉分頁'
     startButton.classList.remove('hide')
+    returnButton.classList.remove('hide')
   }
 }
 
