@@ -1,6 +1,7 @@
 /*const=常數*/
 
 const startButton = document.getElementById('start-btn')
+const returnButton = document.getElementById('rtn-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
@@ -13,6 +14,12 @@ nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
 })
+
+returnButton.addEventListener('click', closeWindow)
+
+function closeWindow() {
+  close()
+}
 
 function startGame() {
   startButton.classList.add('hide')

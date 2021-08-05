@@ -1,6 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family:'sans-serif';
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+    font-family: 'Noto Sans TC', sans-serif;
     font-size: 125%;
   }
   
