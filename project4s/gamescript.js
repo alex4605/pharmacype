@@ -78,35 +78,33 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: '抗過敏/抗組織胺類藥物應該要在什麼時候吃？',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: '早上吃', correct: true },
+      { text: '晚上吃', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: '短效胰島素製劑應該要在什麼時候使用最適當？',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: '飯前1小時前', correct: false },
+      { text: '飯前30分鐘內', correct: true },
+      { text: '飯後30分鐘後', correct: false },
+      { text: '晚上睡前', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: '利尿劑應該要在什麼時候使用？',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: '早上吃', correct: true },
+      { text: '晚上吃', correct: false },
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: '心絞痛藥物應該要在什麼時候使用？',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: '早上吃', correct: true },
+      { text: '晚上吃', correct: false }
     ]
   }
 ]
