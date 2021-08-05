@@ -9,6 +9,7 @@
   :root為根元素(似<html>)*/
   :root {
     --color-neutral: lightblue;
+    --color-butneutral: blue;
     --color-wrong: red;
     --color-correct: green;
   }
@@ -51,7 +52,7 @@
   }
   
   .btn {
-    --color: var(--color-neutral);
+    --color: var(--color-butneutral);
     border: 1px solid;
     background-color: var(--color);
     border-radius: 5px;
