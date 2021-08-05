@@ -1,3 +1,5 @@
+/*const=常數*/
+
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
@@ -15,7 +17,7 @@ nextButton.addEventListener('click', () => {
 function startGame() {
   startButton.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
-  currentQuestionIndex = 0
+  currentQuestionIndex = 0 /*定在第一題*/
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
 }
@@ -39,6 +41,7 @@ function showQuestion(question) {
   })
 }
 
+/*刪掉不存在的答案*/
 function resetState() {
   clearStatusClass(document.body)
   nextButton.classList.add('hide')
@@ -76,6 +79,7 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
+/*這是一個Array，用來放題目們*/
 const questions = [
   {
     question: '抗過敏/抗組織胺類藥物應該要在什麼時候吃？',
