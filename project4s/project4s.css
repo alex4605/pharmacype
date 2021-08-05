@@ -16,7 +16,22 @@ body {
     color: blue;
 }
 
-#s1sbut {
-    size: 200%;
+#glbut {
     box-sizing: content-box;
+    background-color: cornflowerblue;
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#glbut:hover {
+    background-color: darkcyan;
+}
+
+a {
+    text-decoration: none;
 }
