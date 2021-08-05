@@ -1,10 +1,14 @@
 body {
     font-size: 150%;
     background-color: black;
-    text-align: center;
+    text-align: left;
     color: rgb(56, 165, 255);
 }
 
 #squiz {
-    
+    box-sizing: content-box;
+    background-color: wheat;
+    text-align: center;
+    width: fit-content;
+    color: blue;
 }
