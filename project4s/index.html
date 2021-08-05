@@ -6,9 +6,6 @@
         <title>為什麼吃藥的時間會有差？</title>
         <link rel="stylesheet" type="text/css" href="project4s.css">
     </head>
-    <script>
-
-    </script>
     <body>
         <header>
             
@@ -16,27 +13,29 @@
         <h1>為什麼吃藥的時間會有差？</h1>
         <p>你有沒有想過為什麼有些藥品吃藥的時間一定得在早上或是晚上，醫師和藥師為什麼要我一定得在特定時間吃藥呢？</p>
         <h2>先來做個小測試吧！</h2>
-        <form id="squiz">
+        <form action="squiz.php" id="squiz" method="post">
             <p>抗過敏/抗組織胺類藥物應該要在什麼時候吃？</p>
-            <input type="radio" id="Q1A" value="M">
+            <input type="radio" name="S1Q1" value="M">
             <label for="Q1A">早上吃</label>
-            <input type="radio" id="Q1B" value="N">
+            <input type="radio" name="S1Q1" value="N">
             <label for="Q1B">晚上吃</label>
             <p>短效胰島素製劑應該要在什麼時候使用最適當？</p>
-            <input type="radio" id="Q2A" value="M">
+            <input type="radio" name="S1Q2" value="M">
             <label for="Q2A">飯前30分鐘內</label>
-            <input type="radio" id="Q2B" value="N">
+            <input type="radio" name="S1Q2" value="N">
             <label for="Q2B">飯後30分鐘後</label>
             <p>利尿劑應該要在什麼時候使用？</p>
-            <input type="radio" id="Q3A" value="M">
+            <input type="radio" name="S1Q3" value="M">
             <label for="Q3A">早上吃</label>
-            <input type="radio" id="Q3B" value="N">
+            <input type="radio" name="S1Q3" value="N">
             <label for="Q3B">晚上吃</label>
             <p>心絞痛藥物應該要在什麼時候使用？</p>
-            <input type="radio" id="Q4A" value="M">
+            <input type="radio" name="S1Q4" value="M">
             <label for="Q4A">早上吃</label>
-            <input type="radio" id="Q4B" value="N">
+            <input type="radio" name="S1Q4" value="N">
             <label for="Q4B">晚上吃</label>
+            <br>
+            <input type="submit" id="s1sbut" value="送出答案">
         </form>
         <p></p>
     </body>

@@ -1,7 +1,7 @@
 body {
     font-size: 150%;
     background-color: black;
-    text-align: left;
+    text-align: center;
     color: rgb(56, 165, 255);
 }
 
@@ -9,6 +9,14 @@ body {
     box-sizing: content-box;
     background-color: wheat;
     text-align: center;
-    width: fit-content;
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
     color: blue;
+}
+
+#s1sbut {
+    size: 200%;
+    box-sizing: content-box;
 }
