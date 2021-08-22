@@ -149,4 +149,12 @@ footer {
         display: block; 
         text-align: right;
     }
+
+    #navbarlogo {
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+    }
+
+
 }
