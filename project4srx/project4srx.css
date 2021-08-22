@@ -100,6 +100,18 @@
     color: black;
 }
 
+.columnN {
+    width: 80%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 5px solid black;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
 /*地圖和圖片*/
 .titlepic {
     width: 100%;
@@ -123,6 +135,10 @@ footer {
 @media screen and (max-width:1200px) {
     .column {
       width: 100%;
+    }
+
+    .columnN {
+        width: 100%;
     }
 
     .navbar {
