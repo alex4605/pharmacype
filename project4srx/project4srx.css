@@ -1,10 +1,9 @@
-/*反應設計*/
-
 /*上方列*/
 #navbartop {
     list-style-type: none;
     background-color: black;
     text-align: right;
+    font-size: 150%;
     border-radius: 0;
     border: 0px;
     margin: 0;
@@ -12,7 +11,7 @@
 }
 
 #navbarlogo {
-    background-image: url("hpvaxicon.png");
+    background-image: url("kmu_logo.png");
     background-size: 150px;
     position: absolute;
     top: 10px;
@@ -51,20 +50,37 @@
     box-sizing: content-box;
     background-color: cornflowerblue;
     color: white;
-    width: max-content;
+    width: fit-content;
+    max-width: 80%;
     margin: auto;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
     text-align: center;
+    font-size: 150%;
 }
 
 .parag2 {
     box-sizing: content-box;
     background-color: black;
     color: white;
-    width: max-content;
+    width: fit-content;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display:inline
+}
+.parag3 {
+    box-sizing: content-box;
+    background-color: blue;
+    color: white;
+    width: fit-content;
+    max-width: 80%;
     margin: auto;
     padding: 10px;
     padding-left: 20px;
@@ -84,13 +100,6 @@
     color: black;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:900px) {
-    .column {
-      width: 100%;
-    }
-}
-
 /*地圖和圖片*/
 .titlepic {
     width: 100%;
@@ -108,4 +117,16 @@ body {
 footer {
     background-color: black;
     color: white;
+}
+
+/*反應設計*/
+@media screen and (max-width:1200px) {
+    .column {
+      width: 100%;
+    }
+
+    .navbar {
+        display: block; 
+        text-align: right;
+    }
 }
