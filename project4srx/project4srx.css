@@ -45,10 +45,6 @@
     width: auto ;
 }
 
-.titlepic {
-    width: 100%;
-    height: auto;
-}
 
 /*網頁文字段落*/
 .parag1 {
@@ -63,6 +59,14 @@
     border-radius: 20px;
     text-align: center;
 }
+/*地圖和圖片*/
+.titlepic {
+    width: 100%;
+    height: auto;
+}
+
+#map {
+}
 
 /*網頁背景*/
 body {
@@ -70,4 +74,9 @@ body {
     background-color: lightblue;
     text-align: center;
     color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
