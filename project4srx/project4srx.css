@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /*上方列*/
 #navbartop {
     list-style-type: none;
