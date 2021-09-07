@@ -23,7 +23,24 @@ html {
     width: 150px;
     height: 150px;
     margin-top: 10px;
-    margin-left: 10px
+    margin-left: 10px;
+    z-index: 1;
+}
+
+.navbarsel {
+    box-sizing: border-box;
+    transition-duration: 0.2s;
+    border: 2px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: none; 
+    padding: 14px 16px;
+    font-size: large;
+}
+
+#navbarhid {
+    display: inline-block;
 }
 
 .navbar {
@@ -41,6 +58,10 @@ html {
     background-color: aqua;
 }
 
+.navbarsel:hover {
+    background-color: aqua;
+}
+
 /*網站標題*/
 #title {
     box-sizing: border-box;
@@ -48,6 +69,70 @@ html {
     width: auto ;
 }
 
+/*抬頭投影片，地圖*/
+.titlepic {
+    display: none;
+}
+
+.slideshow-container {
+    width: 85%;
+    height: 750px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color:rgba(27, 27, 114, 0.555);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.active, .dot:hover {
+    background-color: rgba(0, 0, 255, 0.575);
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
 
 /*網頁文字段落*/
 .parag1 {
@@ -116,12 +201,6 @@ html {
     margin-bottom: 15px;
 }
 
-/*地圖和圖片*/
-.titlepic {
-    width: 100%;
-    height: auto;
-}
-
 /*網頁背景*/
 body {
     font-size: 150%;
@@ -145,8 +224,12 @@ footer {
         width: 100%;
     }
 
+    #navbarhid {
+        display: inline-block; 
+    }
+
     .navbar {
-        display: block; 
+        font-size: large;
         text-align: right;
     }
 
@@ -156,5 +239,49 @@ footer {
         height: 100px;
     }
 
+    .slideshow-container {
+        height: 600px;
+    }
+
+
+}
+
+@media screen and (max-width:800px) {
+    .column {
+      width: 100%;
+    }
+
+    .columnN {
+        width: 100%;
+    }
+
+    #navbarhid {
+        display: none; 
+    }
+
+    .navbar {
+        font-size: large;
+        text-align: right;
+        display: block;
+    }
+
+    .navbarsel {
+        display: inline-block;
+    }
+
+    #navbarlogo {
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .slideshow-container {
+
+        overflow: hidden;
+    }
+
+    .slideshow-container {
+        height: 400px;
+    }
 
 }
