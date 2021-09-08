@@ -1,3 +1,8 @@
+/*滑行動畫*/
+html {
+    scroll-behavior: smooth;
+}
+
 /*總體*/
 body {
     font-size: 150%;
@@ -33,6 +38,12 @@ body {
     background-color: aqua;
 }
 
+/*抬頭照片*/
+
+.titlepic {
+    max-height: 400px;
+    overflow: hidden;
+}
 
 /*內文*/
 
@@ -130,6 +141,10 @@ footer {
 
     * {
         font-size: 100%;
+    }
+
+    .titlepic {
+        max-height: 200px;
     }
 
 }
