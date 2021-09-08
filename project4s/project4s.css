@@ -124,3 +124,12 @@ footer {
     background-color: black;
     color: white;
 }
+
+/*反應設計*/
+@media screen and (max-width:1200px) {
+
+    * {
+        font-size: 100%;
+    }
+
+}
