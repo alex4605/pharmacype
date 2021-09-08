@@ -51,8 +51,7 @@ body {
     box-sizing: content-box;
     background-color: white;
     color: black;
-    width: fit-content;
-    max-width: 80%;
+    width: 65%;
     margin: auto;
     padding: 30px;
     padding-left: 40px;
