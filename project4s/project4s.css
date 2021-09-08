@@ -1,10 +1,84 @@
+/*總體*/
 body {
     font-size: 150%;
+    background-color: aquamarine ;
+    text-align: center;
+    color: black ;
+}
+/*固定上方列*/
+#navbartop {
+    list-style-type: none;
     background-color: black;
     text-align: center;
-    color: rgb(56, 165, 255);
+    font-size: 150%;
+    border-radius: 0;
+    border: 0px;
+    margin: 0;
+    padding: 0;
 }
 
+.navbar {
+    box-sizing: border-box;
+    transition-duration: 0.2s;
+    border: 2px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    padding: 14px 16px;
+}
+
+.navbar:hover {
+    background-color: aqua;
+}
+
+
+/*內文*/
+
+.parag1 {
+    box-sizing: content-box;
+    background-color: cornflowerblue;
+    color: white;
+    width: fit-content;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.parag2 {
+    box-sizing: content-box;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display:inline
+}
+.parag3 {
+    box-sizing: content-box;
+    background-color: blue;
+    color: white;
+    width: fit-content;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/*小測驗按鈕*/
 #squiz {
     box-sizing: content-box;
     background-color: wheat;
@@ -34,4 +108,11 @@ body {
 
 a {
     text-decoration: none;
+}
+
+/*註腳*/
+
+footer {
+    background-color: black;
+    color: white;
 }
