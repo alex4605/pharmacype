@@ -8,13 +8,14 @@ body {
 /*固定上方列*/
 #navbartop {
     list-style-type: none;
-    background-color: black;
+    box-sizing: border-box;
+    background-color: green;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
     border-radius: 0;
     border: 0px;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .navbar {
@@ -37,8 +38,8 @@ body {
 
 .parag1 {
     box-sizing: content-box;
-    background-color: cornflowerblue;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     width: fit-content;
     max-width: 80%;
     margin: auto;
@@ -47,7 +48,6 @@ body {
     padding-right: 20px;
     border-radius: 20px;
     text-align: center;
-    font-size: 150%;
 }
 
 .parag2 {

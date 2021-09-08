@@ -93,8 +93,8 @@ const questions = [
   {
     question: '抗過敏/抗組織胺類藥物應該要在什麼時候吃？',
     answers: [
-      { text: '早上吃', correct: true },
-      { text: '晚上吃', correct: false }
+      { text: '早上吃', correct: false },
+      { text: '晚上吃', correct: true }
     ]
   },
   {
