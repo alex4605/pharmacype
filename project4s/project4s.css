@@ -57,7 +57,8 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 40px;
-    text-align: center;
+    text-align: left;
+    text-indent: 50px;
 }
 
 .parag2 {
@@ -86,6 +87,12 @@ body {
     padding-right: 40px;
     border-radius: 40px;
     text-align: center;
+}
+
+.paragc {
+    max-width: 85%;
+    text-align: left;
+    margin: auto;
 }
 
 /*小測驗按鈕*/
