@@ -95,6 +95,25 @@ body {
     margin: auto;
 }
 
+.button {
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    background-color:deepskyblue ;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: aqua;
+    text-decoration: none;
+}
+
 /*小測驗按鈕*/
 #squiz {
     box-sizing: content-box;
