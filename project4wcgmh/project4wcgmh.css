@@ -41,7 +41,7 @@ body {
 /*抬頭照片*/
 
 .titlepic {
-    max-height: 400px;
+    max-height: 450px;
     overflow: hidden;
 }
 
@@ -159,6 +159,7 @@ a {
 footer {
     background-color: black;
     color: white;
+    size: 50%;
 }
 
 /*反應設計*/
