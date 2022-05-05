@@ -6,7 +6,7 @@ html {
 /*總體*/
 body {
     font-size: 150%;
-    background-color: aquamarine ;
+    background-color: rgb(183, 225, 255) ;
     text-align: center;
     color: black ;
 }
@@ -53,10 +53,10 @@ body {
     color: black;
     width: 65%;
     margin: auto;
-    padding: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 40px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
     text-align: left;
     text-indent: 50px;
 }
@@ -69,23 +69,23 @@ body {
     max-width: 80%;
     margin: auto;
     padding: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
     text-align: center;
     display:inline
 }
 .parag3 {
     box-sizing: content-box;
-    background-color: blue;
+    background-color: rgb(100, 100, 255);
     color: white;
     width: fit-content;
     max-width: 80%;
     margin: auto;
-    padding: 30px;
+    padding: 20px;
     padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 40px;
+    padding-right: 20px;
+    border-radius: 20px;
     text-align: center;
 }
 
@@ -152,6 +152,12 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.ul {
+    text-align: center;
+
+
 }
 
 /*註腳*/
